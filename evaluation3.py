@@ -353,6 +353,4 @@ def evaluate(root, metrics=['ssim', 'lpips', 'psnr', 'chamfer_dist_points', 'cha
 
 
 if __name__ == "__main__":
-    root = "/groups/sernam/datasets/syntheticHands/results/real_fromscratch_controlnet_sdxllora-id333855_ckpt40000"
-    
-    evaluate(root, save_path="/groups/sernam/datasets/syntheticHands/results/real_fromscratch_controlnet_sdxllora-id333855_ckpt40000/stats.jsonl")
+    pass

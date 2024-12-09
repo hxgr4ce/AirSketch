@@ -326,7 +326,7 @@ def parse_args(input_args=None):
     )
     parser.add_argument(
         "--sketch_json_path", type=str,
-        default="/groups/sernam/datasets/syntheticHands/preprocessed/sketches_full.json"
+        default="datasets/sketches_full.json"
     )
     parser.add_argument(
         "--root",

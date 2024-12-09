@@ -151,13 +151,3 @@ if __name__ == "__main__":
     args.no_augmentation = False
 
     inference_controlnet(args)
-
-
-        # class Args:
-        # prompt_format = "a white and black sketch of a {}"
-        # resolution = resolution
-        # root = "/groups/sernam/datasets/syntheticHands/mediaPipeSketches/synthMPsketches"
-        # save_dir = "/groups/sernam/datasets/syntheticHands/results/synthmptracking_nopostprocessingboth_noprompt-controlnet_pt329182_ckpt18000"
-        # inverse_flow = False
-        # inverse_sketch = False
-        # line_width = 5

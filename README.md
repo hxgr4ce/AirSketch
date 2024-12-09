@@ -34,7 +34,7 @@ This should create a filtered, preprocessed dataset in the directory `datasets/p
 
 ### Prepare hand-tracked sketches 
 
-To obtain hand-tracked sketches from the hand motion video datasets, first download `hand_landmarker.task`, which can be found [here](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task) (more information can be found in [Google AI's 
+To obtain hand-tracked sketches from the hand motion video datasets, first download `hand_landmarker.task` (if not already downloaded), which can be found [here](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task) (more information can be found in [Google AI's 
 Hand landmarks detection guide](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/index#models)). Then run:
 ```
 python data/preprocess.py \
